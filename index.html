@@ -8,8 +8,17 @@
     <meta name="theme-color" content="#0b308e" />
     <title>CAMEL JAPAN | ホームページ開発プレビュー</title>
     <link rel="icon" type="image/png" href="./brand/camel-symbol.png" />
-    <script type="module" crossorigin src="./assets/index-BWIXwprC.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-B_gUls0F.css">
+    <script>
+      // Discover the first hero image before the application bundle, on the home page only.
+      if (!new URLSearchParams(location.search).get('page') || new URLSearchParams(location.search).get('page') === 'home') {
+        const preload = document.createElement('link');
+        preload.rel = 'preload'; preload.as = 'image'; preload.fetchPriority = 'high';
+        preload.href = './images/camel-interior-v2-optimized.webp';
+        document.head.appendChild(preload);
+      }
+    </script>
+    <script type="module" crossorigin src="./assets/index-C_sI-u5j.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-TPdo9FkS.css">
   </head>
   <body>
     <noscript>このプレビューの表示にはJavaScriptが必要です。お問い合わせは072-960-3082までお願いいたします。</noscript>
