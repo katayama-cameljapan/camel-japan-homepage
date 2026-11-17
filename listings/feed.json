@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-17T02:27:24Z",
+  "generatedAt": "2026-11-17T02:30:05Z",
   "properties": [
     {
       "id": "04c29c816b6520626e1d5b2f",
@@ -20,7 +20,7 @@
       "source": "株式会社キャメルジャパン",
       "status": "published",
       "authorized": true,
-      "updatedAt": "2026-11-17T02:27:00Z",
+      "updatedAt": "2026-11-17T02:29:25Z",
       "checkedOn": "2026-11-14",
       "validUntil": "2026-11-17T14:59:59Z",
       "disclosures": [
